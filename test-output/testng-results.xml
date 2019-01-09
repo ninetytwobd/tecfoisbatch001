@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-07T02:53:46Z" name="Default suite" finished-at="2019-01-07T02:55:17Z" duration-ms="91065">
+    <groups>
+    </groups>
+    <test started-at="2019-01-07T02:53:46Z" name="Default test" finished-at="2019-01-07T02:55:17Z" duration-ms="91065">
+      <class name="com.citis.testcases.ProductNServicesTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:53:47Z" name="setUp" finished-at="2019-01-07T02:53:54Z" duration-ms="7531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:53:54Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:09Z" duration-ms="14672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cool]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[250.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is my first Service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewService -->
+        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:09Z" name="jahna" finished-at="2019-01-07T02:54:10Z" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jahna -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:10Z" name="setUp" finished-at="2019-01-07T02:54:17Z" duration-ms="6628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:17Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:31Z" duration-ms="14660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Best]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[270.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1002]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is my second Service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewService -->
+        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:31Z" name="jahna" finished-at="2019-01-07T02:54:33Z" duration-ms="1094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jahna -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:33Z" name="setUp" finished-at="2019-01-07T02:54:39Z" duration-ms="6497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:39Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:53Z" duration-ms="14434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[More]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[300.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1003]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is my third Service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewService -->
+        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:53Z" name="jahna" finished-at="2019-01-07T02:54:55Z" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jahna -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:55Z" name="setUp" finished-at="2019-01-07T02:55:02Z" duration-ms="7081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:55:02Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:55:16Z" duration-ms="14675" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dona]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1004]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[This is my four Service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewService -->
+        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:55:16Z" name="jahna" finished-at="2019-01-07T02:55:17Z" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jahna -->
+      </class> <!-- com.citis.testcases.ProductNServicesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
