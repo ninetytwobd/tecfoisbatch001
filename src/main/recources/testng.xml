@@ -2,9 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Application Test Automation Test Suite">
 
-	<listeners>
-		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
-	</listeners>
+	
 
 	<test name="Automation Test Cases">
 		<classes>
