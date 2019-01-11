@@ -1,19 +1,26 @@
 package com.citi.util;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+
 
 import com.citis.base.TestBase;
 
+
 public class TestUtil extends TestBase {
 
-	public static String TESTDATA_SHEET_PATH = "C:\\Users\\jahan\\git\\tecfoisbatch001\\src\\main\\java\\com\\citi\\testdata\\Service.xls";
+	public static String TESTDATA_SHEET_PATH = "C:\\NewProject1\\tecfoisbatch001\\src\\main\\java\\com\\citi\\testdata\\Service.xls";
 
 	static Workbook book;
 	static Sheet sheet;
@@ -50,4 +57,18 @@ public class TestUtil extends TestBase {
 
 	}
 
+
+public static void captureScreenShot(WebDriver driver, String screenShotName ) {
+	
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source = ts.getScreenshotAs(OutputType.FILE);
+		try {
+			FileUtils.copyFile(source,new File("./Screenshot/"+screenShotName+".png"));
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	
+}
 }

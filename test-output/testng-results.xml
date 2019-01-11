@@ -1,149 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-01-07T02:53:46Z" name="Default suite" finished-at="2019-01-07T02:55:17Z" duration-ms="91065">
+  <suite name="Default suite" duration-ms="20793" started-at="2019-01-10T06:05:41Z" finished-at="2019-01-10T06:06:02Z">
     <groups>
     </groups>
-    <test started-at="2019-01-07T02:53:46Z" name="Default test" finished-at="2019-01-07T02:55:17Z" duration-ms="91065">
-      <class name="com.citis.testcases.ProductNServicesTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:53:47Z" name="setUp" finished-at="2019-01-07T02:53:54Z" duration-ms="7531" status="PASS">
+    <test name="Default test" duration-ms="20793" started-at="2019-01-10T06:05:41Z" finished-at="2019-01-10T06:06:02Z">
+      <class name="com.citis.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="setUp" is-config="true" duration-ms="5771" started-at="2019-01-10T06:05:41Z" finished-at="2019-01-10T06:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:53:54Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:09Z" duration-ms="14672" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Cool]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[250.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1001]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is my first Service]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="loginPageTitle()[pri:1, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="loginPageTitle" duration-ms="326" started-at="2019-01-10T06:05:47Z" finished-at="2019-01-10T06:05:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewService -->
-        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:09Z" name="jahna" finished-at="2019-01-07T02:54:10Z" duration-ms="1456" status="PASS">
+        </test-method> <!-- loginPageTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="tearDown" is-config="true" duration-ms="1027" started-at="2019-01-10T06:05:47Z" finished-at="2019-01-10T06:05:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jahna -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:10Z" name="setUp" finished-at="2019-01-07T02:54:17Z" duration-ms="6628" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="setUp" is-config="true" duration-ms="4685" started-at="2019-01-10T06:05:48Z" finished-at="2019-01-10T06:05:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:17Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:31Z" duration-ms="14660" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Best]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[270.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1002]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is my second Service]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="LogoimmageTest()[pri:2, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="LogoimmageTest" duration-ms="57" started-at="2019-01-10T06:05:53Z" finished-at="2019-01-10T06:05:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewService -->
-        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:31Z" name="jahna" finished-at="2019-01-07T02:54:33Z" duration-ms="1094" status="PASS">
+        </test-method> <!-- LogoimmageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="tearDown" is-config="true" duration-ms="867" started-at="2019-01-10T06:05:53Z" finished-at="2019-01-10T06:05:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jahna -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:33Z" name="setUp" finished-at="2019-01-07T02:54:39Z" duration-ms="6497" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="setUp" is-config="true" duration-ms="4473" started-at="2019-01-10T06:05:54Z" finished-at="2019-01-10T06:05:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:39Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:54:53Z" duration-ms="14434" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[More]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[300.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1003]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is my third Service]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="loginTest" duration-ms="2561" started-at="2019-01-10T06:05:58Z" finished-at="2019-01-10T06:06:01Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createNewService -->
-        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:53Z" name="jahna" finished-at="2019-01-07T02:54:55Z" duration-ms="1036" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.citis.testcases.LoginPageTest@56ef9176]" name="tearDown" is-config="true" duration-ms="943" started-at="2019-01-10T06:06:01Z" finished-at="2019-01-10T06:06:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jahna -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:54:55Z" name="setUp" finished-at="2019-01-07T02:55:02Z" duration-ms="7081" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createNewService(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:55:02Z" name="createNewService" data-provider="moon" finished-at="2019-01-07T02:55:16Z" duration-ms="14675" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dona]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[400.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1004]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[This is my four Service]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createNewService -->
-        <test-method is-config="true" signature="jahna()[pri:0, instance:com.citis.testcases.ProductNServicesTest@68267da0]" started-at="2019-01-07T02:55:16Z" name="jahna" finished-at="2019-01-07T02:55:17Z" duration-ms="992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- jahna -->
-      </class> <!-- com.citis.testcases.ProductNServicesTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.citis.testcases.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -18,8 +18,8 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\jahan\\eclipse-workspace\\automation.qa\\src"
-					+ "\\main\\java\\com\\demo\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\NewProject1\\tecfoisbatch001\\src\\main\\java\\"
+					+ "com\\citis\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -33,16 +33,12 @@ public class TestBase {
     	  String browsername = prop.getProperty("browser");
     	  
     	  
-    	  if(browsername.equals("chrome")) {
-    		  System.setProperty("webdriver.chrome.driver","\\C:\\Users\\jahan\\OneDrive\\Desktop\\Driver\\chromedriver.exe\\");
+    	
+    		  System.setProperty("webdriver.chrome.driver","\\C:\\Driver\\chromedriver.exe\\");
     		driver = new ChromeDriver();
-    	  }
-    	  else if(browsername.equals("FF")){
-    		  System.setProperty("webdriver.gecko.driver","\\C:\\Users\\jahan\\OneDrive\\Desktop\\Driver\\chromedriver.exe\\");
-    		driver = new FirefoxDriver();
-    	  
+    	 
 	
-}
+
     	  driver.manage().window().maximize();
     	  driver.manage().deleteAllCookies();
     	  driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);

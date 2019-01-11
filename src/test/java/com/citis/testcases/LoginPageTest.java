@@ -5,6 +5,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.citi.util.TestUtil;
 import com.citis.base.TestBase;
 import com.citis.pages.HomePage;
 import com.citis.pages.LoginPage;
@@ -12,6 +13,7 @@ import com.citis.pages.LoginPage;
 public class LoginPageTest extends TestBase {
 	LoginPage loginpage;
 	HomePage homepage;
+	TestUtil testutil;
 
 	public LoginPageTest() {
 		super();
@@ -22,11 +24,12 @@ public class LoginPageTest extends TestBase {
 	public void setUp() {
 		initialization1();
 		loginpage = new LoginPage();
+		testutil = new TestUtil();
 	}
 
 	@Test(priority = 1)
-
 	public void loginPageTitle() {
+		//TestUtil.captureScreenShot(driver, "hhh");
 		String title = loginpage.VerifyTitleofloginPage();
 		Assert.assertEquals(title, "Login - TechFios Test Application - Billing");
 
@@ -35,6 +38,7 @@ public class LoginPageTest extends TestBase {
 	@Test(priority = 2)
 
 	public void LogoimmageTest() {
+		
 		boolean logo = loginpage.verifyLogo();
 		Assert.assertTrue(logo);
 

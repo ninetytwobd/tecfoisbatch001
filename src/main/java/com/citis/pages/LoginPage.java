@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.citi.util.TestUtil;
 import com.citis.base.TestBase;
 
 public class LoginPage extends TestBase {
@@ -30,6 +31,7 @@ public class LoginPage extends TestBase {
 	// All Action
 
 	public String VerifyTitleofloginPage() {
+		TestUtil.captureScreenShot(driver, "tt");
 		return driver.getTitle();
 	}
 
@@ -43,6 +45,7 @@ public class LoginPage extends TestBase {
 		username.sendKeys(un);
 		password.sendKeys(pass);
 		loginBtn.click();
+		TestUtil.captureScreenShot(driver, "HomePage");
 		return new HomePage();
 
 	}
